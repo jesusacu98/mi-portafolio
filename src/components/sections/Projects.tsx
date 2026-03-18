@@ -86,7 +86,7 @@ export function Projects() {
                     ))}
                   </div>
                 </CardContent>
-                <CardFooter className="pt-0 flex gap-4 mt-auto">
+                {/* <CardFooter className="pt-0 flex gap-4 mt-auto">
                   {project.github && (
                     <Link href={project.github} target="_blank" className="text-muted-foreground hover:text-foreground transition-colors flex items-center gap-2 text-sm font-medium">
                       <Github className="w-4 h-4" /> Código
@@ -97,7 +97,7 @@ export function Projects() {
                       <ExternalLink className="w-4 h-4" /> Demo en vivo
                     </Link>
                   )}
-                </CardFooter>
+                </CardFooter> */}
               </Card>
             </motion.div>
           ))}
